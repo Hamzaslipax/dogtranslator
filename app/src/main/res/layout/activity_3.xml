@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity3">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Talk to your Dog"
+                android:textColor="@color/black"
+                android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:layout_margin="50dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/happysel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/happysel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/angrysel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/angrysel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/hungrydog"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hungrysel"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/coolhundb"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_selector"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/crysel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/crysel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/partyhund"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/partysel"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/playfulsel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/playfulsel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/laudogsel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/laudogsel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/lovesel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lovesel"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/shocksele"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shocksele"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/sicksel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sicksel"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/kisssel"
+                    android:layout_width="0dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/kisssel"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+
+
+
+            <!--<ImageButton
+                android:id="@+id/kisssel"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_weight="1"
+                android:background="@drawable/kisssel"
+                android:layout_margin="5dp" />-->
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

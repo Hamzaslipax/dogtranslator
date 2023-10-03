@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WhiteHintEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">#FFFFFF</item> <!-- Set the hint text color to white -->
+
+        <item name="android:textColor">#FFFFFF</item> <!-- Set the text color to white -->
+
+    </style>
+
+    <style name="WhiteTextEditTextStyle">#FFFFFF</style>
+    <style name="CircularButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/circle_button_background</item>
+    </style>
+
+</resources>
